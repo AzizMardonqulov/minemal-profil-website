@@ -33,6 +33,8 @@ body{
     display: flex;
     justify-content: center;
     padding-top: 50px;
+    position: fixed;
+    z-index: 100;
 }
 .hader-bg{
     position:absolute;
@@ -128,6 +130,6 @@ body{
 }
 @media only screen and (max-width:374px) {
     .navbar-in ul li a{
-        font-size: 0.7rem;
+        font-size: 0.7rem ;
     }    
 }
